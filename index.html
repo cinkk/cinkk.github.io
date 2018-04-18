@@ -3,25 +3,24 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="Nicholas Fernandez" content="A website created to redisgn a flier that was created for English 402 R&ampD project">
+        <meta name="Nicholas Fernandez" content="A website created to redisgn a flier 
+            that was created for English 402 R&ampD project">
         <title>Graphic Redesign for English 402</title>
         <style>
-        p {color: white}
-        .graphic {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: auto;
-        }
-        html { 
-            background: url(brain-image.jpg) no-repeat center center fixed; 
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
+        p {color: white;}
+        body { 
+            background-image: url('brain-image.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center top; 
             background-size: cover;
         }
         .text {
-            background-color: rgba(0, 0, 0, 0.5);
+            display: block;
+            background-color: rgb(0, 0, 0, 0.5);
+            padding: 1px 20px;
+            margin-left: 50px;
+            margin-right:50px;
         }
         ul {
             list-style-type: none;
@@ -29,7 +28,7 @@
             margin-right: auto;
             padding: 0;
             width: 400px;
-            background-color: rgba(255, 255, 255, 0.7);
+            background-color: rgb(255, 255, 255, 0.7);
         }
 
         li a {
@@ -47,24 +46,34 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        .heading {
+            display: block;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 1px 10px;
+            margin-left: 50px;
+            margin-right: 50px;
         }
         </style>
     </head>
 
     <body>
 
-        
-        <div>
+        <div class="heading" id="top">
             <h1 class="text" align="center"><font color="white"><font size="7">
             <b>Software for those with Traumatic Brain Injury</b></font></h1>
             <ul>
                 <li align="center"><a href="#TBI"><b><font size="5">Traumatic Brain Injury</font></b></a></li>
-                <li align="center"><a href="contact.asp"><b><font size="5">Software Types</font></b></a></li>
-                <li align="center"><a href="https://www.surveymonkey.com/r/52YRDB5" target="_blank"><b><font size="5">Link To Survey</font></b></a></li>
+                <li align="center"><a href="#Software"><b><font size="5">Software Types</font></b></a></li>
+                <li align="center"><a href="https://www.surveymonkey.com/r/52YRDB5" target="_blank">
+                    <b><font size="5">Link To Survey</font></b></a></li>
                 <li align="center"><a href="#about"><b><font size="5">About This Page</font></b></a></li>
             </ul>
         </div>
-
+        
+        <br><br><br><br><br>
         
         <div class="text" id="TBI">
             <h1 align="center"><font color="white"><b>Tramatic Brain Injury</b></h1>
@@ -78,7 +87,33 @@
                 population of veterans return home with Post Traumatic Stress Disorder (PTSD).
             </p>
             <img src="GraphicGraph.png">
+            <p align="center">
+                The pie chart above shows that <strong>20%</strong> of Washington State veterans 
+                who have served have experienced a Traumatic brain Injury.
+            </p>
+            
         </div>
+
+        <br><br><br><br><br>
+
+        <div class="text" id="Software">
+            <h1 align="center"><font color="white"><b>Software Types</b></h1>
+            <p>
+                    There are many different types of software applications that have the goal 
+                    of aiding those diagnosed with a Traumatic Brain Injury. They are available 
+                    on mobiles phones, websites, and downloadable programs. These types of software 
+                    can often go unnoticed, such as the ease of access options available on Windows 
+                    machines and similar accessibility options on most mobile devices. 
+                    <a href="http://www.dva.wa.gov/max-impact-tbi-app" target="_blank"><font color="white">Max Impact</a>, 
+                    which is a free mobile application for Android or Apple devices provided 
+                    by the Washington Department of Veteran Affairs, and <a href="https://www.rehacom.co.uk" target="_blank">
+                    <font color="white">Rehacom</a>, a paid for service that 
+                    is designed to assist therapists when treating patients are two types of software that 
+                    will be explained.
+            </p>
+        </div>
+
+        <br><br><br><br><br>
 
         <div class="text" id="about">
             <p align="center">
@@ -87,6 +122,9 @@
                 by Elijah Coleman
             </p>
         </div>
+
+        <br><br><br>    
+        <a href="#top"><font color="white"><p align="center">back to top</p></a>
     </body>     
 
     
