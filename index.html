@@ -1,32 +1,93 @@
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Graphic Redesign for English 402</title>
-    <style>
-    body {background-color:darkgray}
-    p {color: crimson}
-    .graphic {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
-    </style>
-  </head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="Nicholas Fernandez" content="A website created to redisgn a flier that was created for English 402 R&ampD project">
+        <title>Graphic Redesign for English 402</title>
+        <style>
+        p {color: white}
+        .graphic {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: auto;
+        }
+        html { 
+            background: url(brain-image.jpg) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        .text {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        ul {
+            list-style-type: none;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0;
+            width: 300px;
+            background-color: rgba(255, 255, 255, 0.7);
+        }
 
-  <body>
+        li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
 
+        li a:hover {
+            background-color:rgba(0, 0, 0, 0.3);
+            color: white;
+        }
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        </style>
+    </head>
 
+    <body>
 
-    <p align="center"><font size="6"><b>Software for those with Traumatic Brain Injury</b></font></p>
-    <img src="Graphic.png" alt="oldGraphic" width="100px" height="350px" class="graphic">
-    <p align="center">This website is being created as a redesign of a graphic that was created by Group 1
-        in English 402 for the R&ampD project taught by Elijah Coleman</p>
+        
+        <div>
+            <h1 class="text" align="center"><font color="white"><font size="7">
+            <b>Software for those with Traumatic Brain Injury</b></font></h1>
+            <ul>
+                <li align="center"><a href="#TBI"><b>Traumatic Brain Injury</b></a></li>
+                <li align="center"><a href="contact.asp"><b>Software Types</b></a></li>
+                <li align="center"><a href="#about"><b>About</b></a></li>
+            </ul>
+        </div>
 
+        
+        <div class="text" id="TBI">
+            <h1 align="center"><font color="white"><b>Tramatic Brain Injury</b></h1>
+            <p>
+                TBI in summary can be any injury to the brain that causes mild to 
+                extreme symptoms and disabilities including, but not limited to
+                memory loss, headache, PTSD, and paralysis. TBI is especially relevant 
+                to veterans due to the possibility of contact, trauma and injury they 
+                face during their service. Due to traumatic experiences such as watching 
+                death, seeing explosions and the constant stress of being in war, a great 
+                population of veterans return home with Post Traumatic Stress Disorder (PTSD).
+            </p>
+            <img src="GraphicGraph.png">
+        </div>
 
+        <div class="text" id="about">
+            <p align="center">
+                This website is being created as a redesign of a graphic 
+                that was created by Group 1 in English 402 for the R&ampD project taught 
+                by Elijah Coleman
+            </p>
+        </div>
+    </body>     
 
-      </body>
+    
 </html>
 
